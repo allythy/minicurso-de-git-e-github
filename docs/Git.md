@@ -1,9 +1,8 @@
-```Git``` é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas. Podemos utilizar serviços online para armazenar nossos repositórios, optamos em utilizar o [GitHub](https://github.com/) e vocês irão desenvolver o minicurso e salvar os projetos desenvolvidos nele.
 
 ** Instalando o Git **
 
 ```python
-sudo apt-get install git-core
+sudo apt  install git
 ```
 É necessário gerar uma chave ssh e fazer um cadastro em algum repositório git, por questões de segurança vamos criar uma chave:
 
@@ -16,7 +15,7 @@ ssh-keygen -t rsa -C "comment"
 
 ```git remote add <arquivos>```: adiciona um repositório ao git que foi iniciado neste diretório.
 
-```git commit -m "comentário qualquer"```: Este comando realiza o que chamamos de “commit”, que significa pegar todos os arquivos que estão naquele lugar ```INDEX``` que o comando ```add``` adicionou e criar uma revisão com um número e um comentário, que será vista por todos. 
+```git commit -m "comentário qualquer"```: Este comando realiza o que chamamos de “commit”, que significa pegar todos os arquivos que estão naquele lugar ```INDEX``` que o comando ```add``` adicionou e criar uma revisão com um número e um comentário, que será vista por todos.
 
 ```git status```: Exibe o status do seu repositório atual.
 

@@ -1,20 +1,18 @@
-# Minicurso de Git e Github
+# o que é um Sistemas de Controle de Versão (VCS) ?
 
-Controle de versão, Git, GitHub: o que são?
-* Git: ferramenta de controle de versão
-* GitHub: plataforma online para hospedar o código fonte do seu projeto
+É é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. Um Sistema de Controle de Versão permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais.
 
-## Instalação
+__Tipos de VCS ?__
 
-### Git
-Escolha seu sistema operacional na página de Downloads do projeto (http://git-scm.com/downloads) e siga as instruções de instalação do programa.
+1- Locais. Exemplo: rcs
+2- Centralizados. Exemplo: Subversion e Perforce
+3- Distribuídos. Exemplo:  Git, Mercurial, Bazaar ou Darcs
 
-Para Linux e MacOS existem alternativas, programas para instalação dos softwares mais comuns. O mais comum para Linux chama-se ```apt-get``` e no MacOS o que usaremos é o ```brew```. - Linux: abra o terminal e rode o comando ```sudo apt-get install git``` - MacOS: abra o terminal e rode o comando ```brew install git```
+## Uma breve história do Git
+O Git foi criando em 2005 quando o relacionamento entre a comunidade que desenvolvia o kernel e a empresa que desenvolvia comercialmente o BitKeeper se desfez.  Isso levou a comunidade de desenvolvedores do Linux (em particular Linus Torvalds, o criador do Linux) a desenvolver sua própria ferramenta baseada nas lições que eles aprenderam ao usar o BitKeeper.
 
-Depois de instalado, abra o terminal (ou o prompt de comando) e execute o comando ```git``` para conferir se a instalação foi um sucesso!
+Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sistema fácil de usar e ainda assim mantém essas qualidades iniciais. É incrivelmente rápido, bastante eficiente com grandes projetos e possui um sistema impressionante de branching para desenvolvimento não-linear.
 
 ## Cronograma
 
-* [O minicurso](Minicurso.md)
-* [Git](Git.md)
-* [GitHub](GitHub.md)
+* [Minicurso](Minicurso.md)
