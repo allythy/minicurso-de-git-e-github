@@ -4,9 +4,9 @@
 
 __Tipos de VCS ?__
 
-1- Locais. Exemplo: rcs
-2- Centralizados. Exemplo: Subversion e Perforce
-3- Distribuídos. Exemplo:  Git, Mercurial, Bazaar ou Darcs
+__Locais__. Exemplo: rcs
+__Centralizados__. Exemplo: Subversion e Perforce
+__Distribuídos__. Exemplo:  Git, Mercurial, Bazaar ou Darcs
 
 ## Uma breve história do Git
 O Git foi criando em 2005 quando o relacionamento entre a comunidade que desenvolvia o kernel e a empresa que desenvolvia comercialmente o BitKeeper se desfez.  Isso levou a comunidade de desenvolvedores do Linux (em particular Linus Torvalds, o criador do Linux) a desenvolver sua própria ferramenta baseada nas lições que eles aprenderam ao usar o BitKeeper.
@@ -15,4 +15,4 @@ Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sist
 
 ## Cronograma
 
-* [Minicurso](Minicurso.md)
+* [Minicurso](docs/Minicurso.md)
