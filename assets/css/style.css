@@ -1,6 +1,6 @@
 .container-header {
   height: 100vh;
-  background-image: url(/assets/img/bg2.jpg);
+  background-image: url(/assets/img/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,4 +104,14 @@ nav {
 #contato ul li {
   display: inline;
   color: black;
+}
+
+.card ul li a {
+  padding: 0 3px;
+  font-size: 0.75rem;
+  color: rgba(46, 46, 46, 0.7);
+}
+
+.card ul li a:hover {
+  color: rgb(30, 30, 31);
 }
