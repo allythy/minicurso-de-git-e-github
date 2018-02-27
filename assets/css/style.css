@@ -30,14 +30,6 @@
   margin: 15px auto;
 }
 
-h2::after {
-  content: '';
-  border-top: solid 4px rgb(22, 37, 56);
-  width: 10%;
-  display: block;
-  margin: 14px auto;
-}
-
 nav {
   background-color: #1A1F21;
 }
@@ -60,4 +52,56 @@ nav {
 .page-footer {
   margin: 0;
   padding: 0;
+}
+
+#sobre {
+  font-size: 1.2rem;
+}
+
+#sobre h2::after {
+  content: '';
+  border-top: solid 4px rgb(169, 133, 105);
+  width: 10%;
+  display: block;
+  margin: 20px 0;
+}
+
+#sobre p {
+  text-align: justify;
+}
+
+#participantes h2::after {
+  content: '';
+  border-top: solid 4px rgb(189, 121, 68);
+  width: 15%;
+  display: block;
+  margin: 25px 0;
+}
+
+#contato h2::after {
+  content: '';
+  border-top: solid 4px rgb(189, 121, 68);
+  width: 10%;
+  display: block;
+  margin: 25px auto;
+}
+
+.substitulo-contato {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.contato-social {
+  margin-left: 10px;
+}
+
+.contato-nome {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+#contato ul li {
+  display: inline;
+  color: black;
 }

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Immport fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <!--Import materialize.css-->
   <link rel="stylesheet" href="vendor/css/materialize.min.css" />
   <!-- Import my css -->
@@ -26,7 +27,7 @@
             <li><a href="#">Inicío</a></li>
             <li><a href="#participantes">Participantes</a></li>
             <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
 
           <!-- menu para mobile -->
@@ -62,8 +63,7 @@
       <div class="row">
         <div class="container">
             <h2 class="white-text">Sobre</h2>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+            <p class="grey-text">Este minicurso tem como objetivo explicar o que é Sistema de Controle de Versão (Version Control System ou VCS), como funciona o controle de versão ou versionamento de arquivos e sua importância no desenvolvimento de software em equipe. Explicar as vantagens e desvantagens de algumas dos VCS's mais utilizadas atualmente. Também vamos aprender alguns comandos básicos do Git, que é o VCS mais utilizado atualmente, para começarmos a versionar os nossos projetos pessoais ou profissionais e como colocar o nosso projeto em uma plataforma de hospedagem de código com controle de versionamento como o Github.</p>
         </div>
       </div>
     </div>
@@ -78,24 +78,39 @@
     </div>
   </section>
 
-  <section>
+  <section id="contato">
     <div class="container">
-      <h2 class="center">Contato</h2>
-      <p class="center">Gostou do minicurso ou tem interesse em levar para sua faculdade ou escola ? Fale com a gente que vamos até você.</p>
-        <p>Allythy</p>
-        <p>Telegram: </p>
-        <p>E-mail</p>
-        <p>Site:</p>
-        <p>Clara</p>
-        <p>Telegram: </p>
-        <p>E-mail:</p>
+      <div class="row">
+          <h2 class="center">Contato</h2>
+          <p class="center substitulo-contato">Gostou do minicurso ? Ou tem interesse em levar para sua faculdade, empresa ou escola ? Fale com a gente, teremos maior prazer em ir até onde você está.</p>
+          <div class="col l4">
+              <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive" src="assets/img/user.jpeg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Allythy Rennan<i class="material-icons right">more_vert</i></span>
+                    <ul>
+                      <li><a href="https://t.me/allythy" target="_blank"><i class="fab fa-telegram fa-2x"></i></a></li>
+                      <li><a href="https://github.com/allythy" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                      <li><a href="https://allythy.github.io/" target="_blank"><i class="fas fa-laptop fa-2x"></i></a></li>
+                      <li><a href=""><i class="fas fa-envelope fa-2x" target="_blank"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Quem sou:<i class="material-icons right">close</i></span>
+                    <p>Entusiasta do movimento Software Livre e estudante de programação. Sou colaborador na tradução do Debian, coordenador do Potilivre grupo de Software Livre do RN e autor/colaborador do site SempreUpdate.</p>
+                  </div>
+              </div>
+           </div>
+        </div>
     </div>
   </section>
 
   <footer class="page-footer grey darken-4">
     <div class="footer-copyright">
       <div class="container">
-        <p class="center">© 2017 Copyright Loja</p>
+        <p class="center">© 2018 Copyright <a href="https://github.com/allythy" target="blank">Allythy</a></p>
       </div>
     </div>
   </footer>
