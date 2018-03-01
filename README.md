@@ -1,6 +1,6 @@
 # o que é um Sistemas de Controle de Versão (VCS) ?
 
-É é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. Um Sistema de Controle de Versão permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais.
+É um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. Um Sistema de Controle de Versão permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais.
 
 ## Tipos de VCS
 
@@ -21,13 +21,13 @@ Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sist
 
 ## Como colocar sua foto como participante
 
-1. De um Fork no repositório
-2. Crie sua branch para adicionar sua foto: `git checkout -b novoParticipante`
-3. Crie um arquivo html com o seu nom e sobrenome na pasta de participantes. Exemplo: josemaria.html
-4. Peguei como exemplo a estrutura do arquivo allythyrenan.html e altere com suas informações que são: nome, github e foto
+1. Dê um Fork no repositório
+2. Crie uma branch para adicionar sua foto: `git checkout -b novoParticipante`
+3. Crie um arquivo html com o seu nome sobrenome na pasta de participantes. Exemplo: josemaria.html
+4. Pegue como exemplo a estrutura do arquivo allythyrenan.html (na pasta Participantes) e altere com suas informações que são: nome, github e foto
 5. Commit suas alterações: `git commit -m "Novo participante Allythy Rennan"`
 6. Mande o Push para sua branch: `git push origin novoParticipante`
-7. Entre no Github e envio o seu pull request
+7. Entre no Github e envie o seu pull request
 
 ## Rodando o projeto localmente
 
