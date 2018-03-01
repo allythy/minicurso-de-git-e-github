@@ -7,10 +7,11 @@
 * Obtendo ajuda
 * Iniciando um repositório com o git
 * Vendo o log dos commit (gitk)
-* Desfazendo alterações
+* Trabalhando com Brach
 
 PAUSA PARA TORMAR ÁGUA
 
-* Trabalhando com Brach
+* Trabalhando com remote
 * Criando uma conta no GitHub
 * Contribuindo em um projeto
+* Desfazendo alterações (Bônus)

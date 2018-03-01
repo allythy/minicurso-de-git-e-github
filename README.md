@@ -18,3 +18,38 @@ Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sist
 ## Cronograma
 
 * [Minicurso](docs/Minicurso.md)
+
+## Como colocar sua foto como participante
+
+1. De um Fork no repositório
+2. Crie sua branch para adicionar sua foto: `git checkout -b novoParticipante`
+3. Crie um arquivo html com o seu nom e sobrenome na pasta de participantes. Exemplo: josemaria.html
+4. Peguei como exemplo a estrutura do arquivo allythyrenan.html e altere com suas informações que são: nome, github e foto
+5. Commit suas alterações: `git commit -m "Novo participante Allythy Rennan"`
+6. Mande o Push para sua branch: `git push origin novoParticipante`
+7. Entre no Github e envio o seu pull request
+
+## Rodando o projeto localmente
+
+Instale o gulp globalmente, se tiver já instalado ignore essa etapa:
+
+```
+npm i -g gulp
+```
+Depois instale as dependências do node
+
+```
+npm install
+```
+
+Inicialize o lite-server:
+```
+npm run server
+```
+
+Inicialize o gulp:
+```
+gulp
+```
+
+OBS: Se você não souber instalar o nodejs no Debian e derivados eu fiz um post ensinando como fazer, [você pode ler aqui.](https://allythy.github.io/Como-instalar-o-NodeJS-no-Debian) Mas se você tiver com preguiça e quiser uma coisa mais rápida  [tem esse script que eu fiz para instalar o nodejs e outras coisas.](https://github.com/allythy/Pos-instalacao-Debian)
