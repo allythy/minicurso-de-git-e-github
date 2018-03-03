@@ -39,32 +39,28 @@ function menu_scroll() {
 
 function load_user() {
   
-    setInterval(function() {
-       
-       $.ajax({
-        url: 'https://api.github.com/repos/allythy/Minicurso-de-git-e-Github/contents/participantes',
-        dataType: 'json',
-          success: function(data){             
+    $.ajax({
+      url: 'https://api.github.com/repos/allythy/Minicurso-de-git-e-Github/contents/participantes',
+      dataType: 'json',
+        success: function(data){             
 
-              var element_html = '<h2 class="light">Participantes</h2>';
+            var element_html = '<h2 class="light">Participantes</h2>';
 
-              [].forEach.call( data , function(e){                  
+            [].forEach.call( data , function(e){                  
 
-                  if( e.path.indexOf('html') != -1 )
-                    readFileHtml(e.path, function(argument) {                   
+                if( e.path.indexOf('html') != -1 )
+                  readFileHtml(e.path, function(argument) {                   
 
-                        element_html += argument;
+                      element_html += argument;
 
-                    })
+                  })
 
-              });  
+            });  
 
-              $('#user').html( element_html );          
+            $('#user').html( element_html );          
 
-          },
-      }) 
-
-    }, 1000); 
+        },
+    });
 
 }
 
