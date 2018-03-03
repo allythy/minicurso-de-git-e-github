@@ -40,7 +40,7 @@ function menu_scroll() {
 function load_user() {
   
     $.ajax({
-      url: 'https://api.github.com/repos/allythy/Minicurso-de-git-e-Github/contents/participantes?access_token=4cd6f2003cc5c39d71dd5a937efa30dbeb90e9f1',
+      url: 'https://api.github.com/repos/allythy/Minicurso-de-git-e-Github/contents/participantes?client_id=03097e661b22c50a8790&client_secret=0cde1b0fba29839d1b8661fd8b8f12c64acadbc5',
       dataType: 'json',
         success: function(data){             
 
