@@ -21,13 +21,14 @@ Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sist
 
 ## Como colocar sua foto como participante
 
-1. Dê um Fork no repositório
-2. Crie uma branch para adicionar sua foto: `git checkout -b novoParticipante`
-3. Crie um arquivo html com o seu nome sobrenome na pasta de participantes. Exemplo: josemaria.html
-4. Pegue como exemplo a estrutura do arquivo allythyrenan.html (na pasta Participantes) e altere com suas informações que são: nome, github e foto
-5. Commit suas alterações: `git commit -m "Novo participante Allythy Rennan"`
-6. Mande o Push para sua branch: `git push origin novoParticipante`
-7. Entre no Github e envie o seu pull request
+1. Faça um Fork do repositório
+2. Clone o repositório do github para seu local: `git clone git@github.com:seuUsuário/Minicurso-de-git-e-Github.git`
+3. Crie uma branch para adicionar sua foto: `git checkout -b novoParticipante`
+4. Crie um arquivo html com o seu nome sobrenome na pasta de participantes. Exemplo: josemaria.html
+5. Pegue como exemplo a estrutura do arquivo allythyrenan.html (na pasta Participantes) e altere com suas informações que são: nome, github e foto
+6. Commit suas alterações: `git commit -m "Novo participante Allythy Rennan"`
+7. Mande o Push para sua branch: `git push origin novoParticipante`
+8. Entre no Github e envie o seu pull request
 
 ## Rodando o projeto localmente
 
